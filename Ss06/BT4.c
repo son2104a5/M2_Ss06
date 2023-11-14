@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main(){
 	int n,i,sum,en,e,max;
-	printf("nhap so nguyen: ");
+	do{
+	printf("nhap so nguyen duong: ");
 	scanf("%d",&n);
+	}while(n<0);
 	do{
 		printf("PRACTISE\n");
 		printf("1. in day so chia het cho 2 va giam dan (n>=so>=2)\n");
