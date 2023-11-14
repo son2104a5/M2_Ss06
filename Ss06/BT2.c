@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main(){
 	int n,m,e,gcd,lcm;
-	printf("nhap so nguyen n,m lan luot: ");
+	do{
+	printf("nhap so nguyen duong n,m lan luot: ");
 	scanf("%d %d",&n,&m);
+	}while(n<0||m<0);
 	do{
 		printf("CACULATOR\n");
 	    printf("1. tong 2 so\n");
